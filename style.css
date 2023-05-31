@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 650px;
+    background-size: cover;
+    background: url('./images/Rectangle\ 3.png'),rgba(255, 255, 255, 0.01);
+    background-size: cover;
+    backdrop-filter: blur(25px);
+    border-radius: 8px 8px 0px 0px;
+}
+.logo{
+    display: flex;
+    gap: 80px;
+}
+.logo ul{
+    display: flex;
+    gap: 40px;
+}
+.logo li{
+    list-style: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    transform: translate(-30px,46px);
+}
+.sign{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.customer{
+    height: 606px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text h1{
+    width: 653px;
+    height: 210px;
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+.text .p1{
+    width: 552px;
+    height: 96px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.6);
+    transform: translateY(-20px);
+}
+.action{
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+}
+.action .b1{
+    width: 155px;
+    height: 60px;
+    background: #0D082C;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 35px;
+    gap: 8px;
+}
+.b1 p{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    width: 85px;
+    height: 30px;
+}
+.b2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 35px;
+    width: 199px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 100px;
+    border: 0;
+}
+.b2 p{
+    width: 100px;
+    height: 30px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.logo h3{
+    width: 86px;
+    height: 23px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.logo li{
+    width: 70px;
+    height: 20px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+.sign h3{
+    width: 41px;
+    height: 21px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.sign button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 10px;  
+    border: 0;
+    width: 103px;
+    height: 37px;
+    background: rgba(255, 255, 255, 0.55);
+    border-radius: 6px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #0D082C;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 35px;
+}
+.customer .img1{
+    height: 459px;
+    width: 450px;
+    transform: translateY(10px);
+}
+.features{
+    height: 800px;
+}
+.features .heading{
+    text-align: center;
+    transform: translateY(30px)
+}
+.heading h1{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 54px;
+    width: 700px;
+    height: 108px;
+    margin: 0 auto;
+}
+.heading p{
+    width: 500px;
+    height: 52px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: rgba(13, 8, 44, 0.813);
+    margin: 0 auto;
+}
+.card1,.card2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.card1>div,.card2>div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.card1 p,.card2 p{
+    width: 360px;
+    height: 130px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(13, 8, 44);
+}
+.card1 h1,.card2 h1{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 1500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #0D082C;
+}
+.card2,.card1{
+    transform: translateY(60px);
+}
+.card2{
+    transform: translateY(90px);
+}
+.demo{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient(from 180deg at 69.58% 44.09%, #F5AC76 0deg, #FECB7F 360deg);
+    padding: 50px 0px;
+}
+.demo-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;    
+}
+.support{
+    display: flex;
+    gap: 20px;
+}
+.s1,.s2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+.demo-text h1{
+    width: 555px;
+    height: 108px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 54px;
+    color: #0D082C;
+}
+.demo-text .p1{
+    width: 456px;
+    height: 78px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(13, 8, 44, 0.6);
+}
+.demo-text button{
+    width: 170px;
+    height: 60px;
+    background: #0D082C;
+    border-radius: 100px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.support h2{
+    width: 262.5px;
+    height: 30px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 30px;
+    color: #0D082C;
+}
+.support p{
+    width: 262.5px;
+    height: 96px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(13, 8, 44)
+}
+.demo img{
+    width: 458px;
+    height: 672px;
+    transform: translateY(20px);
+}
+.price{
+    height: 700px;
+}
+.price .h1 h1{
+    width: 742px;
+    height: 54px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 54px;
+    text-align: center;
+    color: #0D082C;
+    margin: 0 auto;
+}
+.price .h1 p{
+    width: 556px;
+    height: 78px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: rgba(13, 8, 44, 0.6);
+    margin: 0 auto;
+}
+.prices{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.prices>div{
+    width: 360px;
+    height: 366px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    gap: 20px;
+}
+.STARTER h2{
+    width: 68px;
+    height: 18px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px;
+    gap: 8px;
+    width: 320px;
+    height: 38px;
+    background: #4635F3;
+    border-radius: 8px 8px 0px 0px;
+    color: #FFFFFF;
+}
+.PROFESSIONAL h2{
+    width: 68px;
+    height: 18px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px;
+    gap: 8px;
+    width: 320px;
+    height: 38px;
+    background: #F5AC76;
+    border-radius: 8px 8px 0px 0px;
+    color: #FFFFFF;
+}
+.ENTERPRISE h2{
+    width: 68px;
+    height: 18px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px;
+    gap: 8px;
+    width: 320px;
+    height: 38px;
+    background: #FF5391;
+    border-radius: 8px 8px 0px 0px;
+    color: #FFFFFF;
+}
+.prices p{
+    margin: 0 auto;
+    width: 300px;
+    height: 42px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    padding: 0px 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.594);
+    
+}
+.STARTER li{
+    list-style-image: url('./images/Frame\ \(2\).png');
+    margin: 10px;
+}
+.ENTERPRISE li{
+    list-style-image: url('./images/Frame\ \(1\).png');
+    margin: 10px;
+}
+.PROFESSIONAL li{
+    list-style-image: url('./images/Frame\ \(3\).png');
+    margin: 10px;
+}
+.ENTERPRISE button{
+    width: 300px;
+    height: 42px;
+    background: #FF5391;
+    border-radius: 6px;
+    border: 0;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.PROFESSIONAL button{
+    width: 300px;
+    height: 42px;
+    border: 0;
+    background: #F5AC76;
+    border-radius: 6px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.STARTER button{
+    width: 300px;
+    height: 42px;
+    border: 0;
+    background: #4635F3;
+    border-radius: 6px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.price .h1{
+    padding: 50px;
+}
